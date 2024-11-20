@@ -59,4 +59,5 @@ python src/cli.py -i examples/clinical_cases.txt -o examples/output.json -t 0.85
 - 确保输入文本为UTF-8编码
 - 建议根据具体需求调整相似度阈值
 - 处理大量文本时可能需要较长时间
+- 不是大语言模型，只是分词策略，无法区别‘无**’等表型，即**无头痛**会被识别为**\"HP\:0002315\"\: \"头痛\"**
 
