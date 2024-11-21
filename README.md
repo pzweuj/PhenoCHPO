@@ -15,6 +15,7 @@ HPO编号与遗传病基因检测分析相关，这个工具可以简化从临�
 - pandas>=1.3.0
 - fuzzywuzzy>=0.18.0
 - python-Levenshtein>=0.12.2
+- PySimpleGUI (GUI版本，可选)
 
 
 ## 安装说明
